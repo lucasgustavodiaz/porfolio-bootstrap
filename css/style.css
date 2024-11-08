@@ -14,6 +14,16 @@
   color: #96bab3 !important;
 }
 
+.btn-outline-primary {
+  border-color: #00838f !important;
+  color: #00838f !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: #00838f !important;
+  color: #e0dfdf !important;
+}
+
 .btn-primary {
   background-color: #00838f !important;
   border-color: #002629 !important;
@@ -49,4 +59,40 @@ ESTILOS DEL DISEÑO
 .card:hover {
   -webkit-box-shadow: 0 0 10px #0c0c0c3b;
   box-shadow: 0 0 10px #0c0c0c3b;
+}
+
+.line {
+  background-color: #e0dfdf;
+  height: 2px;
+  width: 100px;
+}
+
+.plus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  display: none !important;
+  cursor: pointer;
+}
+
+.plus:hover {
+  display: inline !important;
+}
+
+body {
+  font-size: 14px;
+}
+
+@media (min-width: 576px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .content-fix {
+    max-width: 50%;
+  }
 }
